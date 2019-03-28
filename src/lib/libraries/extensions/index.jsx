@@ -38,6 +38,9 @@ import wedo2ConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 import boostIconURL from './boost/boost.png';
 import boostInsetIconURL from './boost/boost-small.svg';
 
+import multirotorImage from './mxsrobot/multirotor.png';
+// import testImage from './mxsrobot/simulate.png';
+
 export default [
     {
         name: (
@@ -142,6 +145,19 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: true
+    },
+    {
+        name: 'MXSRobot MultiRotor 1.0',
+        extensionId: 'multirotor',
+        collaborator: 'MXSRobot',
+        iconURL: multirotorImage,
+        description: 'The MXSRobot MultiRotor 1.0 extesion ',
+        featured: true,
+        disabled: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: false,
+        // connectingMessage 有效时，下面链接有效
+        helpLink: 'https://www.mxsrobot.com/bbs/'
     },
     {
         name: 'Makey Makey',
