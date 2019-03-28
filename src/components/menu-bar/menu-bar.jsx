@@ -322,20 +322,20 @@ class MenuBar extends React.Component {
             >
                 <div className={styles.mainMenu}>
                     <div className={styles.fileGroup}>
-                        {/* 增加明学思官网链接 <a href= ……> </a>*/}
-                        <a href="https://mxsrobot.com">
-                            <div className={classNames(styles.menuBarItem)}>
-                                <img
-                                    alt="Scratch"
-                                    className={classNames(styles.scratchLogo, {
-                                        [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
-                                    })}
-                                    draggable={false}
-                                    src={scratchLogo}
-                                    onClick={this.props.onClickLogo}
-                                />
-                            </div>
-                        </a>
+                        {/* 增加明学思官网链接 <a href= ……> </a> */}
+                        {/* <a href="https://mxsrobot.com"> */}
+                        <div className={classNames(styles.menuBarItem)}>
+                            <img
+                                alt="Scratch"
+                                className={classNames(styles.scratchLogo, {
+                                    [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
+                                })}
+                                draggable={false}
+                                src={scratchLogo}
+                                onClick={this.props.onClickLogo}
+                            />
+                        </div>
+                        {/* </a> */}
                         <div
                             className={classNames(styles.menuBarItem, styles.hoverable, styles.languageMenu)}
                         >
