@@ -111,7 +111,6 @@
     "scratch-render": "0.1.0-prerelease.20190312125229",
     "scratch-storage": "1.2.2",
     "scratch-svg-renderer": "0.2.0-prerelease.20190304180800",
-    "scratch-vm": "0.2.0-prerelease.20190321151527",
     "selenium-webdriver": "3.6.0",
     "startaudiocontext": "1.2.1",
     "style-loader": "^0.23.0",
@@ -138,5 +137,8 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/__mocks__/fileMock.js",
       "\\.(css|less)$": "<rootDir>/test/__mocks__/styleMock.js"
     }
+  },
+  "dependencies": {
+    "antd": "^3.16.5"
   }
 }

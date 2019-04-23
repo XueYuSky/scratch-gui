@@ -16,6 +16,7 @@
 }
 
 .flex-wrapper {
+    display: -webkit-flex; /* Safari */
     display: flex;
 
     /*
@@ -23,7 +24,7 @@
         a) for the blocks + workspace panes, and
         b) for combined stage menu + stage + sprite/stage selectors
     */
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: 100%;
 
     /*

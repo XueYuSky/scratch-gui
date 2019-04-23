@@ -171,7 +171,7 @@ class ActionMenu extends React.Component {
                                                 type="file"
                                                 onChange={fileChange}
                                             />) : null}
-                                    </button>
+                                    </button>                                    
                                     <ReactTooltip
                                         className={classNames(styles.tooltip, {
                                             [styles.comingSoonTooltip]: isComingSoon
