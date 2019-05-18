@@ -24,7 +24,7 @@
         a) for the blocks + workspace panes, and
         b) for combined stage menu + stage + sprite/stage selectors
     */
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: 100%;
 
     /*

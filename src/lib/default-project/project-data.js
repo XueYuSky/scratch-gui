@@ -73,23 +73,32 @@ const projectData = translateFunction => {
                 blocks: {},
                 currentCostume: 0,
                 costumes: [
+                    // {
+                    //     assetId: 'b7853f557e4426412e64bb3da6531a99',
+                    //     name: translator(messages.costume, {index: 1}),
+                    //     bitmapResolution: 1,
+                    //     md5ext: 'b7853f557e4426412e64bb3da6531a99.svg',
+                    //     dataFormat: 'svg',
+                    //     rotationCenterX: 48,
+                    //     rotationCenterY: 50
+                    // },
+                    // {
+                    //     assetId: 'e6ddc55a6ddd9cc9d84fe0b4c21e016f',
+                    //     name: translator(messages.costume, {index: 2}),
+                    //     bitmapResolution: 1,
+                    //     md5ext: 'e6ddc55a6ddd9cc9d84fe0b4c21e016f.svg',
+                    //     dataFormat: 'svg',
+                    //     rotationCenterX: 46,
+                    //     rotationCenterY: 53
+                    // }
                     {
-                        assetId: 'b7853f557e4426412e64bb3da6531a99',
+                        assetId: 'b070ee8b7256c46bb60537eb6cbb78bc',
                         name: translator(messages.costume, {index: 1}),
                         bitmapResolution: 1,
-                        md5ext: 'b7853f557e4426412e64bb3da6531a99.svg',
+                        md5ext: 'b070ee8b7256c46bb60537eb6cbb78bc.svg',
                         dataFormat: 'svg',
                         rotationCenterX: 48,
                         rotationCenterY: 50
-                    },
-                    {
-                        assetId: 'e6ddc55a6ddd9cc9d84fe0b4c21e016f',
-                        name: translator(messages.costume, {index: 2}),
-                        bitmapResolution: 1,
-                        md5ext: 'e6ddc55a6ddd9cc9d84fe0b4c21e016f.svg',
-                        dataFormat: 'svg',
-                        rotationCenterX: 46,
-                        rotationCenterY: 53
                     }
                 ],
                 sounds: [

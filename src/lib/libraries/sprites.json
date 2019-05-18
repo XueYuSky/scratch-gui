@@ -1,5 +1,52 @@
 [
     {
+        "name": "mxsrotor",
+        "md5": "b070ee8b7256c46bb60537eb6cbb78bc.svg",
+        "type": "costume",
+        "tags": [
+            "science",
+            "robot",
+            "multirotor"  
+        ],
+        "info": [
+            31,
+            100,
+            1
+        ],
+        "json": {
+            "objName": "mxsrotor",
+            "sounds": [
+                {
+                "soundName": "pop",
+                "soundID": -1,
+                "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+                "sampleCount": 258,
+                "rate": 11025,
+                "format": ""
+                }
+            ],
+            "costumes": [
+                {
+                    "costumeName": "mxsrotor",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "b070ee8b7256c46bb60537eb6cbb78bc.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 31,
+                    "rotationCenterY": 100
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": -20,
+            "scratchY": -38,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "Abby",
         "md5": "afab2d2141e9811bd89e385e9628cb5f.svg",
         "type": "sprite",

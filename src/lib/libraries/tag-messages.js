@@ -125,5 +125,10 @@ export default defineMessages({
         defaultMessage: 'Letters',
         description: 'Tag for filtering a library for letters',
         id: 'gui.libraryTags.letters'
+    },
+    science: {
+        defaultMessage: 'Science',
+        description: 'Tag for filtering a library for science',
+        id: 'gui.libraryTags.science'
     }
 });

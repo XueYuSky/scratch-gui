@@ -1,5 +1,20 @@
 [
     {
+        "name": "mxsrotor",
+        "md5": "b070ee8b7256c46bb60537eb6cbb78bc.svg",
+        "type": "costume",
+        "tags": [
+            "science",
+            "robot",
+            "multirotor"            
+        ],
+        "info": [
+            31,
+            100,
+            1
+        ]
+    },
+    {
         "name": "Abby-a",
         "md5": "afab2d2141e9811bd89e385e9628cb5f.svg",
         "type": "costume",
