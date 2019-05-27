@@ -1,6 +1,6 @@
-jest.mock('../../../src/lib/analytics.js', () => ({
-    event: () => {}
-}));
+// jest.mock('../../../src/lib/analytics.js', () => ({
+//     event: () => {}
+// }));
 
 jest.mock('../../../src/lib/libraries/decks/index.jsx', () => ({
     noUrlId: {},

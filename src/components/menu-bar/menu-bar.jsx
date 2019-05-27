@@ -69,7 +69,8 @@ import remixIcon from './icon--remix.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 
-import scratchLogo from './scratch-logo.svg';
+// import scratchLogo from './scratch-logo.svg';
+import scratchLogo from './mxs-logo.svg';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -532,24 +533,6 @@ class MenuBar extends React.Component {
                                 </ProjectWatcher>
                             )
                         ) : (
-                        // (this.props.isShowingProject || this.props.isUpdating) && (
-                        //     <ProjectWatcher onDoneUpdating={this.props.onSeeCommunity}>
-                        //         {
-                        //             waitForUpdate => (
-                        //                 <ShareButton
-                        //                     className={styles.menuBarButton}
-                        //                     isShared={this.props.isShared}
-                        //                     /* eslint-disable react/jsx-no-bind */
-                        //                     onClick={() => {
-                        //                         this.handleClickShare(waitForUpdate);
-                        //                     }}
-                        //                     /* eslint-enable react/jsx-no-bind */
-                        //                 />
-                        //             )
-                        //         }
-                        //     </ProjectWatcher>
-                        // )
-
                             this.props.showComingSoon ? (
                                 <MenuBarItemTooltip id="share-button">
                                     <ShareButton className={styles.menuBarButton} />

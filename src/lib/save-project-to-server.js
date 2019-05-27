@@ -21,7 +21,8 @@ export default function (projectId, vmState, params) {
         headers: {
             'Content-Type': 'application/json'
         },
-        withCredentials: true
+        withCredentials: false
+        // withCredentials: true
     };
     const creatingProject = projectId === null || typeof projectId === 'undefined';
     const queryParams = {};
